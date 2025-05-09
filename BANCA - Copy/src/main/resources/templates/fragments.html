@@ -1,0 +1,11 @@
+<!-- src/main/resources/templates/fragments.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head></head>
+<body>
+<div th:fragment="cartSummary">
+  <span>🛒 Giỏ hàng: <span th:text="${cartSize}">0</span> món</span> -
+  <span>Tổng tiền: <span th:text="${totalPrice}">0</span>₫</span>
+</div>
+</body>
+</html>

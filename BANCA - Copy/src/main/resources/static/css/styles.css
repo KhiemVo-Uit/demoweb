@@ -1,0 +1,123 @@
+/* Các style cải thiện giao diện */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('/images/hero-background.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+}
+
+/* Cải thiện hiển thị sản phẩm */
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-card-body {
+    text-align: center;
+}
+
+.product-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.product-price {
+    font-size: 1.125rem;
+    color: #ff5733;
+    font-weight: 600;
+}
+
+.add-to-cart-form input {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.add-to-cart-form button {
+    width: 100%;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart-form button:hover {
+    background-color: #218838;
+}
+
+/* Tìm kiếm */
+.search-bar {
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.search-bar button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+/* Giỏ hàng */
+#cart-summary {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 220px;
+    text-align: center;
+}
+
+#cart-summary img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
